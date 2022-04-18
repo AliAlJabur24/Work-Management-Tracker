@@ -1,0 +1,39 @@
+/* Main CSS file */
+
+/*(@import '_example/_example.css';*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+
+
+.container {
+    min-height: 70vh; /* height of the browser viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+.TaskList{
+    overflow: auto;
+max-height: 100vh;
+}
+  ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.Taskinputs{
+  padding-top: 13.875rem;
+  padding-left: 17px;
+  margin: 0;
+}
+.uk-overlay-default{
+  background: none !important;
+}
